@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.title {
+  color: '#12022f';
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.profile-description {
+  color: #616e7c;
+  font-size: 15px;
+}
